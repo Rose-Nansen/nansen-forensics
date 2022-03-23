@@ -31,6 +31,9 @@ p {
   font-weight: 400;
 }
 
+.banner {
+  background-color: var(--secondary-color);
+}
 /*---------------------------------
 # Navigation
 ----------------------------------- */
