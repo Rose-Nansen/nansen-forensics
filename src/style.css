@@ -57,8 +57,8 @@ p {
   font-size: smaller;
 }
 
-.btn {
-  font-family: "Halant", serif;
+.btn-sm {
+  font-family: var(--heading-font-family);
   font-size: smaller;
   color: var(--primary-color);
   margin-right: 100px;
