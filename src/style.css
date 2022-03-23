@@ -53,7 +53,7 @@ p {
 }
 
 .dropdown-item {
-  font-family: "Halant", serif;
+  font-family: var(--heading-font-family);
   font-size: smaller;
 }
 
@@ -65,7 +65,7 @@ p {
 }
 .clearfix {
   text-align: justify;
-  padding: 30px 50px 50px 30px;
+  padding: 30px 70px 50px 50px;
 }
 
 .main-forensic {
