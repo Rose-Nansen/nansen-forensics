@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #015cbf;
+  --secondary-color: #f8f9fa;
+}
+
+h1 {
+  font-family: "Halant", serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #233142;
+  margin: 30px 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #233142;
+  text-align: center;
+  margin: 0 0 80px;
+}
+
+h3 {
+  font-family: "Halant", serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+/*---------------------------------
+# Navigation
+----------------------------------- */
+.logo {
+  margin-left: 50px;
+  padding: 5px;
+}
+
+.nav-link {
+  font-family: "Halant", serif;
+  font-weight: 400;
+}
+
+.dropdown-item {
+  font-family: "Halant", serif;
+  font-size: smaller;
+}
+
+.btn {
+  font-family: "Halant", serif;
+  font-size: smaller;
+  color: var(--primary-color);
+  margin-right: 100px;
+}
+.clearfix {
+  text-align: justify;
+  padding: 30px 50px 50px 30px;
+}
+
+.main-forensic {
+  border-radius: 10px;
+  width: 700px;
+}
