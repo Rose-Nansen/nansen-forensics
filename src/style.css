@@ -67,6 +67,7 @@ p {
   margin-right: 100px;
 }
 
+
 .img-fluid {
   border-radius: 8px;
   padding: 10px;
@@ -82,8 +83,10 @@ p {
     height: 50px;   
        }
 
-   
-.about-nansen {
+   .nansen-forensics {
+     margin-top: 50px;
+   }
+.p-about-nansen {
   text-align: justify;
- 
+  
 }
