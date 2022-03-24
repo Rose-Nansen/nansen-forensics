@@ -50,6 +50,9 @@ p {
 .nav-link {
   font-family: var(--heading-font-family);
   font-weight: 400;
+  font-size: 16px;
+  margin: 5px;
+ 
 }
 
 .dropdown-item {
@@ -66,7 +69,18 @@ p {
 
 .img-fluid {
   border-radius: 8px;
-}
+ }
+   .services-btn {
+    margin: 0px 50px 30px;
+    color:#0092CA;
+    background-color:#FCFAFA ;
+    outline: 1px solid;
+    width: 120px;
+    height: 50px;   
+       }
+
+   
 .about-nansen {
   text-align: justify;
+ 
 }
