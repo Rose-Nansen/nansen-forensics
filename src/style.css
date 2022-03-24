@@ -63,12 +63,7 @@ p {
   color: var(--primary-color);
   margin-right: 100px;
 }
-.clearfix {
-  text-align: justify;
-  padding: 30px 70px 50px 50px;
-}
 
 .main-forensic {
   border-radius: 8px;
-  width: 700px;
 }
