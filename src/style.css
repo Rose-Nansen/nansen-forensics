@@ -96,3 +96,15 @@ p {
   text-align: justify;
   
 }
+
+/* ------------------------------
+ Services Section 
+ --------------------------------*/
+
+ .services {
+   margin-top: 100px;
+ }
+ hr {
+   width: 30%;
+   
+ }
