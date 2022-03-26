@@ -36,11 +36,11 @@ h3 {
 
 p {
   font-weight: 400;
+  font-size: 18px;
 }
 
 .banner {
- 
-  background-image: url(/src/images/forensics-banner.jpeg);
+ background-image: url(/src/images/forensics-banner.jpeg);
   width: 100%;
 }
 /*---------------------------------
@@ -48,7 +48,7 @@ p {
 ----------------------------------- */
 
 .logo {
-  margin-left: 50px;
+  margin: 20px 20px 20px 50px;
   padding: 5px;
 }
 
@@ -94,12 +94,17 @@ p {
     height: 50px;   
        }
 
+   /*----------------------------
+   About Nansen Forensics Section
+   ------------------------------  */
+
    .nansen-forensics {
      margin-top: 50px;
    }
 
 .p-about-nansen {
   text-align: justify;
+  margin-right: 30px;
   
 }
 
@@ -115,6 +120,8 @@ p {
    color: #0092CA;
     }
 .p-services {
+  width:98%;
+  text-align: justify;
   margin-bottom: 3px;
 }
 
@@ -133,19 +140,23 @@ Founders Section
 -------------------------------------*/
 
 .h-founders {
-
   margin-top: 80px;
 }
+
 .p-founders {
-  font-weight: bold;
-}
+   font-weight: bold;
+  }
+
+  .p-text {
+    text-align: justify;
+    margin-right: 30px;
+  }
 
 .founders-image {
-  margin-top: 100px;
+  margin-top: 140px;
   max-width: 80%;
   max-width: auto;
-   
-}
+   }
 
 /* -----------------------------------
 Partners Section
@@ -158,4 +169,22 @@ Partners Section
 /* ---------------------------------------
 Footer Section - to be completed
 ------------------------------------------- */
+ 
+/* -----------------------------------------
+Responsiveness
+-------------------------------------------- */
+
+  @media (max-width: 576px) { 
+  .m-forensic-img,
+  .card {
+    display: none;
+      }
+  .p-about-nansen,
+  .p-services {
+    font-size: 10px;
+    text-align: center;
+}
+
+}
+
  
