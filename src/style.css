@@ -37,16 +37,22 @@ p {
 }
 
 .banner {
-  background-color: var(--secondary-color);
+ 
+  background-image: url(/src/images/forensics-banner.jpeg);
+  
 }
 /*---------------------------------
 # Navigation
 ----------------------------------- */
+
 .logo {
   margin-left: 50px;
   padding: 5px;
 }
 
+.welcome {
+  margin-top: 30px;
+}
 .nav-link {
   font-family: var(--heading-font-family);
   font-weight: 400;
