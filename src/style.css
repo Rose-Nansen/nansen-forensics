@@ -41,7 +41,7 @@ p {
 .banner {
  
   background-image: url(/src/images/forensics-banner.jpeg);
-  
+  width: 100%;
 }
 /*---------------------------------
 # Navigation
