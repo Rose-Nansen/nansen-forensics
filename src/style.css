@@ -62,7 +62,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   margin: 5px;
- 
+   
 }
 
 
@@ -102,18 +102,18 @@ p {
      margin-top: 50px;
    }
 
-.p-about-nansen {
+   .p-about-nansen {
   text-align: justify;
   margin-right: 30px;
   
-}
+   }
 
 /* ------------------------------
  Services Section 
  --------------------------------*/
 
  .services {
-   margin-top: 50px;
+   margin-top: 30px;
  }
  hr {
    width: 180px;
