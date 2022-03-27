@@ -40,7 +40,7 @@ p {
 }
 
 .banner {
- background-image: url(/src/images/forensics-banner.jpeg);
+  background-image: url(/src/images/forensics-banner.jpeg);
   width: 100%;
 }
 /*---------------------------------
@@ -56,15 +56,12 @@ p {
   margin-top: 30px;
 }
 
-
 .nav-link {
   font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 16px;
   margin: 5px;
-   
 }
-
 
 .dropdown-item {
   font-family: var(--heading-font-family);
@@ -78,65 +75,62 @@ p {
   margin-right: 100px;
 }
 
-
 .img-fluid {
   border-radius: 8px;
   padding: 5px;
   margin-top: 30px;
-  
- }
-   .client-btn {
-    margin: 0px 30px 30px;
-    color:#0092CA;
-    background-color:#FCFAFA ;
-    outline: 1px solid;
-    width: 130px;
-    height: 50px;   
-       }
+}
+.client-btn {
+  margin: 0px 30px 30px;
+  color: #0092ca;
+  background-color: #fcfafa;
+  outline: 1px solid;
+  width: 130px;
+  height: 50px;
+}
 
-   /*----------------------------
+/*----------------------------
    About Nansen Forensics Section
    ------------------------------  */
 
-   .nansen-forensics {
-     margin-top: 50px;
-   }
+.nansen-forensics {
+  margin-top: 50px;
+}
 
-   .p-about-nansen {
+.p-about-nansen {
   text-align: justify;
   margin-right: 30px;
-  
-   }
+}
 
 /* ------------------------------
  Services Section 
  --------------------------------*/
 
- .services {
-   margin-top: 30px;
- }
- hr {
-   width: 180px;
-   color: #0092CA;
-    }
+.services {
+  margin-top: 30px;
+}
+hr {
+  width: 180px;
+  color: #0092ca;
+}
 .p-services {
-  width:98%;
+  width: 98%;
   text-align: justify;
   margin-bottom: 3px;
 }
 
 .services-btn {
-  color: #0092CA;
-  background-color: white ;
-  outline-color: #0092CA;
+  color: #0092ca;
+  background-color: white;
+  outline-color: #0092ca;
   outline: 1px solid;
   width: 150px;
-  margin-top: 30px; 
-     }
+  margin-top: 30px;
+}
 
-  .card-text {
-    font-size: 16px;
-  }   
+.card-text {
+  font-size: 16px;
+}
 
 /* ----------------------------------
 Founders Section
@@ -147,19 +141,19 @@ Founders Section
 }
 
 .p-founders {
-   font-weight: bold;
-  }
+  font-weight: bold;
+}
 
-  .p-text {
-    text-align: justify;
-    margin-right: 30px;
-  }
+.p-text {
+  text-align: justify;
+  margin-right: 30px;
+}
 
 .founders-image {
   margin-top: 140px;
   max-width: 80%;
   max-width: auto;
-   }
+}
 
 /* -----------------------------------
 Partners Section
@@ -172,25 +166,23 @@ Partners Section
 /* ---------------------------------------
 Footer Section - to be completed
 ------------------------------------------- */
- 
+
 /* -----------------------------------------
 Responsiveness
 -------------------------------------------- */
 @media (max-width: 990px) {
-  .btn-sm{
-    display: none;
-
-  }
-   .card-text{
+  .btn-sm {
     display: none;
   }
+  .card-text {
+    display: none;
+  }
 
-  
- .card-title {
-   font-size: 7px;
-   font-weight: 700;
- }
-   p,
+  .card-title {
+    font-size: 7px;
+    font-weight: 700;
+  }
+  p,
   .p-about-nansen,
   .p-services,
   .p-text,
@@ -199,24 +191,21 @@ Responsiveness
   .partners {
     font-size: 16px;
     text-align: center;
-      
-}
+  }
 
-.services {
-  margin: auto;
-}
-h1 {
-font-size: 18px;
-text-align: center;
-}
+  .services {
+    margin: auto;
+  }
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
 
-h2,
-h3,
-.h-founders {
-  font-size: 14px;
-  text-align: center;
-  margin: auto;
+  h2,
+  h3,
+  .h-founders {
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+  }
 }
-}
-
- 
