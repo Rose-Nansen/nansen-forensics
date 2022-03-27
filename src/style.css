@@ -25,7 +25,7 @@ h2 {
   color: #233142;
   opacity: 90%;
   text-align: center;
-  margin: 0 0 80px;
+  margin: 0 0 60px;
 }
 
 h3 {
@@ -86,11 +86,11 @@ p {
   
  }
    .client-btn {
-    margin: 0px 50px 30px;
+    margin: 0px 30px 30px;
     color:#0092CA;
     background-color:#FCFAFA ;
     outline: 1px solid;
-    width: 120px;
+    width: 130px;
     height: 50px;   
        }
 
@@ -132,15 +132,18 @@ p {
   outline: 1px solid;
   width: 150px;
   margin-top: 30px; 
-     
-}
+     }
+
+  .card-text {
+    font-size: 16px;
+  }   
 
 /* ----------------------------------
 Founders Section
 -------------------------------------*/
 
 .h-founders {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .p-founders {
