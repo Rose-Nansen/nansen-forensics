@@ -173,18 +173,48 @@ Footer Section - to be completed
 /* -----------------------------------------
 Responsiveness
 -------------------------------------------- */
-
-  @media (max-width: 576px) { 
-  .m-forensic-img,
-  .card {
+@media (max-width: 990px) {
+  .btn-sm{
     display: none;
-      }
+
+  }
+   .card-text{
+    display: none;
+  }
+}
+ 
+ 
+ .card-title {
+   font-size: 7px;
+   font-weight: 700;
+ }
+   p,
   .p-about-nansen,
-  .p-services {
-    font-size: 10px;
+  .p-services,
+  .p-text,
+  .p-founders,
+  .p-about-nansen,
+  .partners {
+    font-size: 16px;
     text-align: center;
+      
 }
 
+.services {
+  margin: auto;
 }
+h1 {
+font-size: 18px;
+text-align: center;
+}
+
+h2,
+h3,
+.h-founders {
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+}
+
 
  
