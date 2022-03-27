@@ -181,9 +181,8 @@ Responsiveness
    .card-text{
     display: none;
   }
-}
- 
- 
+
+  
  .card-title {
    font-size: 7px;
    font-weight: 700;
@@ -215,6 +214,6 @@ h3,
   text-align: center;
   margin: auto;
 }
-
+}
 
  
